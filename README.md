@@ -1,6 +1,6 @@
-# FitForge-AI-Fitness-Coach-
-FitApp - AI Fitness Companion  A cross-platform mobile app built with React Native and Expo, offering personalized workout plans powered by AI. Track workouts, create diet plans, and get fitness insights. Features include AI-powered recommendations, progress tracking, and an interactive chat for health advice.
+# FitApp - AI-Powered Fitness Companion
 
+FitApp is a modern mobile application built with React Native and Expo, designed to help users track their fitness journey with the power of AI. The app integrates with the Hugging Face Flan API to provide personalized fitness recommendations and insights.
 
 ## Features
 
@@ -46,7 +46,7 @@ cd fit-app
 
 3. Start the backend server:
    ```bash
-   uvicorn flan_api:app --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload
    ```
 
 ### 3. Set Up React Native Frontend
@@ -114,7 +114,7 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -152,6 +152,21 @@ Add calorie save button & backend update
 - Added styled green success message that auto-dismisses after save.
 - Updated styles for meter, category text, and success message.
 - UserDashboard fetches and displays all profile info for logged-in user (not just from route params or mock data).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
