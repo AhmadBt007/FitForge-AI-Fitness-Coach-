@@ -46,7 +46,7 @@ cd fit-app
 
 3. Start the backend server:
    ```bash
-   uvicorn main:app --reload
+   uvicorn flan_api:app --host 0.0.0.0 --port 8000
    ```
 
 ### 3. Set Up React Native Frontend
@@ -114,7 +114,7 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Acknowledgments
 
